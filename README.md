@@ -25,13 +25,13 @@
 
 
 ### b)design choices 
--used model controller services arcitecture
--made reusable functions following DRY principles
--made everything centrallised for better structure and easy accessibilty and mantainibilty
-#auth
--use jwt tokens to perform token based auth
--- Proper input validation and sanitization are implemented to ensure that only valid data
--this arcitecture abstracts datalayer(services) and business logic (controllers) making robust api
+- used model controller services arcitecture
+- made reusable functions following DRY principles
+- made everything centrallised for better structure and easy accessibilty and mantainibilty
+# auth
+- use jwt tokens to perform token based auth
+- Proper input validation and sanitization are implemented to ensure that only valid data
+- this arcitecture abstracts datalayer(services) and business logic (controllers) making robust api
 
 
 ## c) Limitations
