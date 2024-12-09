@@ -2,7 +2,7 @@
 
 
 
-###a) Steps
+### a) Steps
 
 1. Clone the repository:
 
@@ -24,7 +24,7 @@
 
 
 
-##b)design choices 
+### b)design choices 
 -used model controller services arcitecture
 -made reusable functions following DRY principles
 -made everything centrallised for better structure and easy accessibilty and mantainibilty
