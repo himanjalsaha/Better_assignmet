@@ -41,11 +41,11 @@ class user_services:
    
      
     @staticmethod
-    def generate_token(id,username):
+    def generate_token(id,email):
       
         payload = {
             "user_id": id,
-            "username": username,
+            "email": email,
             "exp": datetime.utcnow() + timedelta(hours=1)  # Token expires in 1 hour
         }
         return jwt.encode(payload, SECRET_KEY, algorithm="HS256")
